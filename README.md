@@ -1,12 +1,15 @@
+This is a project made during the Technigo Bootcamp. 
+
 # Music Releases
-Replace this readme with your own information about your project.
+This project assignment was to use React components to build a page which shows new album and single releases, using a downloaded response from the Spotify API.
 
-Start by briefly describing the assignment in a sentence or two. Keep it short and to the point.
+This was our first project coding with React and we used .map() to iterate data from Spotify API that was already stored in a file . 
 
-## The problem
+We started by doing a component called Album where we used props to pass the correct data from the data.json file.
+To be able to .map through all the artists and display all of them (if there were more than one on an album) and have them in separate links, we also did an Artist component. In the App.js file we looped both the album info and the artist info separately.
 
-Describe how you approached to problem, and what tools and techniques you used to solve it. How did you plan? What technologies did you use? If you had more time, what would be next?
+We structured our components by using JSX. To position the albums and have the site responsive we used flexbox, and also added code that fills up the row evenly with the albums, and if there aren't enough to fill a row they are placed to the left.
+The task was also to apply different hovering effects on the links and icons. We struggled to get all the effects to work on the icons, but after getting some help we managed to solve the problem according to the brief.
 
 ## View it live
-
-Every project should be deployed somewhere. Be sure to include the link to the deployed project so that the viewer can click around and see what it's all about.
+https://project-new-releases.netlify.app/
